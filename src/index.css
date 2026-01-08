@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@keyframes cartFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-cart-float {
+  animation: cartFloat 2.5s ease-in-out infinite;
+}
